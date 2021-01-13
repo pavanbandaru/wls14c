@@ -56,8 +56,8 @@ Vagrant.configure("2") do |config|
   #   # Customize the amount of memory on the VM:
   #   vb.memory = "1024"
   # end
-config.vm.provider "virtualbox" do |v|
-  v.memory = 1024
+config.vm.provider "virtualbox" do |vb|
+  vb.memory = 2048
 end
   #
   # View the documentation for the provider you are using for more
@@ -71,3 +71,4 @@ end
   #   apt-get install -y apache2
   # SHELL
 end
+
